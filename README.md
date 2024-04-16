@@ -1,2 +1,2 @@
-# JavaScript
- Estudo e projetos direcinados ao JavaScript
+# javascript
+ Curso de javascrip do curso em video
