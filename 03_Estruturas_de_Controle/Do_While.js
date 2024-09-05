@@ -1,3 +1,5 @@
+//Do while : Quantidade indeterminada , expressao depois do bloco de código
+//Executa o código depois ver se continua ou não  
 function getInteiroAleatorioEntre(min,max){
     const valor = Math.random()*(max - min) + min
     return Math.floor(valor)
