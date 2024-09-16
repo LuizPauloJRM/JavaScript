@@ -9,9 +9,19 @@ for (x in numeros) {
       
         console.log(`x= ${numeros[x]}`)
 }
+
+//Continue ignora a execução do bloco abaixo e pula para o próximo loop
 for (y in numeros) {
     if(y==5){
         continue
     }
     console.log(`${y}= ${numeros[y]}`)
 }
+externo://Rótulo
+for(a in numeros) {
+    for(b in numeros) {
+        if(a == 2 && b == 3) break externo;
+        console.log(`Par = ${a},${b}`)
+    }
+}
+console.log("Fim")
